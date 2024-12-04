@@ -24,4 +24,4 @@ class TestClass:
 
     def test_should_try_on_errors(self) -> None:
         with pytest.raises(ValueError):
-            get_coin_combination(-1)
+            get_coin_combination(-2)
